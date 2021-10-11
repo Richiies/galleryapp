@@ -1,0 +1,23 @@
+/* Write your code here. */
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.active {
+  opacity: 0.2;
+}
+.tab {
+  opacity: 1;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
